@@ -1,0 +1,8 @@
+/ base.html.haml
+%html
+  %head
+    %title= block(:title)
+  %body
+    %h1= block(:title)
+    #content= block(:content) do
+      Default content

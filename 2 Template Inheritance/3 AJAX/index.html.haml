@@ -1,0 +1,5 @@
+/ index.html.haml
+- extends "base.html" unless request.ajax?
+- block(:title, "Hello World!")
+= block(:content) do
+  Lorem ipsum

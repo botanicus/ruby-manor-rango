@@ -1,0 +1,1 @@
+Rango::Mini.app { |request, response| "body"}
